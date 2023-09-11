@@ -17,6 +17,9 @@ return {
     },
   },
 
+  --icons
+  icons = require("user.icons"),
+
   -- Set colorscheme to use
   colorscheme = "astrodark",
 

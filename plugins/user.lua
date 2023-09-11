@@ -8,5 +8,18 @@ return {
   --   config = function()
   --     require("lsp_signature").setup()
   --   end,
-  -- },
+  -- }, 
+  {
+    "nvim-treesitter/nvim-treesitter",
+    -- opts = overrides.treesitter,
+    config = {
+      rainbow = {
+        enable = true,
+      }
+    },
+    dependencies = {
+    -- bracket colorizer
+      "p00f/nvim-ts-rainbow",
+    }
+  },
 }
